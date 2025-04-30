@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.applications import EfficientNetB0
+from data_augementation import train_generator, val_generator
 
 # Load base model
 base_model = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(224,224,3))
