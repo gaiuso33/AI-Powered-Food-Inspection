@@ -24,4 +24,4 @@ history = model.fit(
     epochs=15
 )
 
-model.save('fresh_stale_classifier.h5')
+model.save('fresh_stale_classifier.keras')

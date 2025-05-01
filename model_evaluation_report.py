@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+from deep_learning_model import history
 # Accuracy
 plt.plot(history.history['accuracy'], label='Train Accuracy')
 plt.plot(history.history['val_accuracy'], label='Val Accuracy')
