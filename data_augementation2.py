@@ -28,9 +28,8 @@ val_generator = train_datagen.flow_from_directory(
     subset='validation'
 )
 
-# Load base model
 base_model = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(224,224,3))
-base_model.trainable = False  # Freeze base
+base_model.trainable = False  
 
 model = models.Sequential([
     base_model,
