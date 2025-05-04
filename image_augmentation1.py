@@ -13,13 +13,10 @@ input_folder = 'data/images/original/'
 output_folder = 'data/images/augmented_data/'
 os.makedirs(output_folder, exist_ok=True)
 
-# Image extensions to process (after conversion)
 image_extensions = ('.jpg', '.jpeg', '.png')
 
-# Define classes
 classes = ['fresh', 'stale']
 
-# Create class folders in output
 for cls in classes:
     os.makedirs(os.path.join(output_folder, cls), exist_ok=True)
 

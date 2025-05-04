@@ -5,3 +5,9 @@ __pycache__/
 data/
 models/
 docs/
+output_images/
+uselesscodes/
+app/
+data/
+data_split/
+.gitignore
