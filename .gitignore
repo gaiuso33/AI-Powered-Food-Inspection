@@ -1,12 +1,20 @@
+# Ignore Python cache and compiled files
 __pycache__/
-*.h5
 *.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore model files
+*.h5
+
+# Ignore project directories
 data/
 models/
 docs/
 output_images/
 uselesscodes/
 app/
-data/
 data_split/
